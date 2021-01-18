@@ -1,0 +1,39 @@
+h1 {
+    color: gray;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo {
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: solid 1px skyblue;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.todo:hover {
+    background: #fafafa;
+    color: gray;
+    border: solid 1px blue;
+}
+.remove-button {
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
