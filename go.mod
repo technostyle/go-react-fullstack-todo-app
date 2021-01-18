@@ -1,3 +1,3 @@
-module todoapp-server
+module todoapp
 
 go 1.15
