@@ -23,6 +23,10 @@ h1 {
     cursor: pointer;
 }
 
+.done {
+    text-decoration: line-through;
+}
+
 .todo:hover {
     background: #fafafa;
     color: gray;
